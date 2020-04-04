@@ -12,7 +12,7 @@ from hashlib import md5
 from math import log
 
 from . import finalseg
-from ._compat import *
+from jieba._compat import *
 
 if os.name == 'nt':
     from shutil import move as _replace_file
