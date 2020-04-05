@@ -1,9 +1,9 @@
 from __future__ import absolute_import, unicode_literals
 import re
-import os
 import sys
 import pickle
-from .._compat import *
+import logging
+from jieba._compat import *
 
 MIN_FLOAT = -3.14e100
 

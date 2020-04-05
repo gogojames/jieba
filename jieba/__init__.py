@@ -3,6 +3,7 @@ from __future__ import absolute_import, unicode_literals
 __version__ = '0.42.1'
 __license__ = 'MIT'
 
+import os
 import marshal
 import re
 import tempfile
@@ -12,7 +13,7 @@ from hashlib import md5
 from math import log
 
 from . import finalseg
-from ._compat import *
+from jieba._compat import *
 
 if os.name == 'nt':
     from shutil import move as _replace_file
